@@ -1,0 +1,67 @@
+/* _commons.scss */
+
+#accessLink { // 접근성 링크
+    display: block;
+    position: absolute;
+    inset-block-start: -100%;
+    inset-inline: 0;
+    margin-inline: auto;
+    padding: .5rem;
+    width: fit-content;
+    background-color: rgb(var(--clr-background));
+    font-family: var(--ff-sans-en);
+    font-size: var(--fnt-sm);
+    text-transform: uppercase;
+    transition: inset-block-start .2s;
+
+    &::before,
+    &::after {
+        display: block;
+        position: absolute;
+        inset-block: 0;
+        width: 1.6rem;
+        background-color: rgb(var(--clr-background));
+        z-index: -1;
+        content: '';
+    }
+
+    &::before {
+        inset-inline-end: calc(100% - .8rem);
+        border-bottom-left-radius: .4rem;
+        transform: skewX(30deg);
+    }
+
+    &::after {
+        inset-inline-start: calc(100% - .8rem);
+        border-bottom-right-radius: .4rem;
+        transform: skewX(-30deg);
+    }
+
+    &:focus {
+        inset-block-start: 0;
+        z-index: 50000;
+    }
+}
+
+#wrap {
+    position: relative;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+#contentView {
+
+}
+
+.inner-container { // 섹션 내부 컨테이너
+    margin-inline: auto;
+    padding-inline: .4rem;
+    width: min(100%, 64rem);
+}
+
+.section-title { // 섹션 타이틀
+    font-family: var(--ff-gothic-en);
+    font-size: var(--fnt-title-xl);
+}
+
+/* _commons.scss */

@@ -1,0 +1,99 @@
+/* _headers.scss */
+
+/* 헤더 */
+
+#headPrimary {
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline: 0;
+    height: 3.6rem;
+    background-color: rgba(var(--clr-background) / .75);
+    backdrop-filter: blur(1.2rem);
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* 헤더 끝 */
+/* 로고 */
+
+#logoPrimary {
+    display: flex;
+    align-items: flex-end;
+}
+
+#logoHeader {
+    height: 2.4rem;
+
+    .logo-graffiti {
+        &-text {
+            stroke: black;
+            stroke-width: .1rem;
+            stroke-miterlimit: 10;
+            fill: white;
+        }
+
+        &-shadow {
+            stroke-width: 0;
+            fill: black;
+        }
+
+        &-splash {
+            stroke-width: 0;
+            fill: rgb(var(--clr-theme));
+        }
+    }
+}
+
+/* 로고 끝 */
+/* 네비게이션 */
+
+#navPrimary {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    font-family: var(--ff-gothic-en);
+}
+
+.main-nav-links {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::before {
+        display: block;
+        position: absolute;
+        inset-inline-end: calc(100% + .4rem);
+        margin-block: auto;
+        width: .4rem;
+        height: .4rem;
+        border: 1px solid transparent;
+        border-image-slice: 1;
+        border-image-source: conic-gradient(from 225deg at center, var(--conic-color) var(--conic-range), transparent calc(var(--conic-range) + 0.1deg));
+        transition: --conic-range .5s ease-out;
+        pointer-events: none;
+        content: '';
+
+        --conic-color: transparent;
+    }
+
+    &:hover,
+    &:focus {
+        &::before {
+            --conic-range: 360deg;
+            --conic-color: rgb(var(--clr-theme));
+        }
+    }
+
+    &:active {
+        --clr-theme: 0 255 136;
+    }
+}
+
+/* 네비게이션 끝 */
+
+/* _headers.scss */

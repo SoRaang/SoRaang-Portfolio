@@ -1,0 +1,84 @@
+/* _subPages.scss */
+
+/* 소개 */
+
+#secAbout {
+
+}
+
+/* 소개 끝 */
+/* 포트폴리오 */
+
+#secPortfolio {
+
+}
+
+#contPortfolio {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2.4rem
+}
+
+.pf-totalyear-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .6rem;
+}
+
+.pf-yeartag {
+    width: fit-content;
+
+    h4 {
+        padding-block: .2rem;
+        width: 3.2rem;
+        border-radius: .2rem;
+        background-color: gray; // 임시
+        font-family: var(--ff-sans-en);
+        font-size: vra(--fnt-lg);
+        text-align: center;
+    }
+}
+
+.pf-dots {
+    position: relative;
+    width: 1rem;
+
+    &::before {
+        display: block;
+        position: absolute;
+        inset: 1.4rem 0 0;
+        margin-inline: auto;
+        width: 2px;
+        height: 100%;
+        border-radius: 10rem;
+        background-color: rgb(255 255 255 / .15);
+        z-index: -1;
+        content: '';
+    }
+}
+
+.pf-yeardot {
+    margin-block: .2rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10rem;
+    background-color: rgb(var(--clr-theme));
+}
+
+/* 포트폴리오 끝 */
+/* 취미 */
+
+#secHobbies {
+
+}
+
+/* 취미 끝 */
+/* 연락처 */
+
+#secContact { // 임시 길이
+    height: 200vh;
+}
+
+/* 연락처 끝 */
+
+/* _subPages.scss */
