@@ -1,0 +1,78 @@
+[
+    {
+        "yearTotal": 2021,
+        "yearEvent": "S 정보기술 입사",
+        "yearSummary": "이러쿵 저러쿵",
+        "yearAchieves": [
+            {
+                "projectName": "다이브채널",
+                "projectDetails": "",
+                "durationBegin": "2021-08",
+                "durationEnds": "2022-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "yearTotal": 2022,
+        "yearEvent": "팀 핵심 인원으로 주목",
+        "yearSummary": "이러쿵 저러쿵",
+        "yearAchieves": [
+            {
+                "projectName": "윗팜",
+                "projectDetails": "",
+                "durationBegin": "2022-01",
+                "durationEnds": "2022-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "yearTotal": 2023,
+        "yearEvent": "디자인 팀장 진급",
+        "yearSummary": "이러쿵 저러쿵",
+        "yearAchieves": [
+            {
+                "projectName": "한국도로공사",
+                "projectDetails": "",
+                "durationBegin": "2023-01",
+                "durationEnds": "2023-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "yearTotal": 2024,
+        "yearEvent": "퇴사 및 세계여행",
+        "yearSummary": "이러쿵 저러쿵",
+        "yearAchieves": [
+            {
+                "projectName": "필리핀",
+                "projectDetails": "",
+                "durationBegin": "2024-03",
+                "durationEnds": "2024-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -26,16 +26,18 @@
 }
 
 .pf-yeartag {
-    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 1.2rem;
+    border-radius: .2rem;
+    background-color: black; // 임시
 
     h4 {
-        padding-block: .2rem;
-        width: 3.2rem;
-        border-radius: .2rem;
-        background-color: gray; // 임시
         font-family: var(--ff-sans-en);
-        font-size: vra(--fnt-lg);
-        text-align: center;
+        font-size: var(--fnt-lg);
+        font-weight: 600;
     }
 }
 
@@ -49,7 +51,7 @@
         inset: 1.4rem 0 0;
         margin-inline: auto;
         width: 2px;
-        height: 100%;
+        height: calc(100% - 1.4rem);
         border-radius: 10rem;
         background-color: rgb(255 255 255 / .15);
         z-index: -1;
@@ -58,11 +60,49 @@
 }
 
 .pf-yeardot {
-    margin-block: .2rem;
-    width: 1rem;
-    height: 1rem;
+    margin: .2rem auto;
+    width: .8rem;
+    height: .8rem;
     border-radius: 10rem;
     background-color: rgb(var(--clr-theme));
+}
+
+.pf-yeartitle {
+    margin-block-end: 1.6rem;
+
+    h5 {
+        margin-block-end: .4rem;
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+}
+
+.pf-work-details {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.6rem;
+}
+
+.pf-single-work {
+    position: relative;
+
+    &::before {
+        display: block;
+        position: absolute;
+        inset-inline-end: calc(100% + .9rem);
+        inset-block-start: .2rem;
+        width: .4rem;
+        height: .4rem;
+        border-radius: 10rem;
+        background-color: white;
+        content: '';
+    }
+
+    h6 {
+        margin-block-end: .4rem;
+        font-size: var(--fnt-lg);
+        font-weight: 700;
+    }
 }
 
 /* 포트폴리오 끝 */
