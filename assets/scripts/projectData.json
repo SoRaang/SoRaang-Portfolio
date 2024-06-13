@@ -13,6 +13,54 @@
                     {
                         "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
                         "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "다삼브채널",
+                "projectDetails": "",
+                "durationBegin": "2021-08",
+                "durationEnds": "2022-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "다사브채널",
+                "projectDetails": "",
+                "durationBegin": "2021-08",
+                "durationEnds": "2022-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
+                        "imageDescription": "이미지 설명"
                     }
                 ]
             }
@@ -29,6 +77,14 @@
                 "durationBegin": "2022-01",
                 "durationEnds": "2022-08",
                 "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
                     {
                         "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
                         "imageDescription": "이미지 설명"
@@ -51,6 +107,18 @@
                     {
                         "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
                         "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
                     }
                 ]
             }
@@ -58,7 +126,7 @@
     },
     {
         "yearTotal": 2024,
-        "yearEvent": "퇴사 및 세계여행",
+        "yearEvent": "퇴사 및 자기계발",
         "yearSummary": "이러쿵 저러쿵",
         "yearAchieves": [
             {
@@ -66,6 +134,26 @@
                 "projectDetails": "",
                 "durationBegin": "2024-03",
                 "durationEnds": "2024-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "웹 디자인 기능사 자격증 취득",
+                "projectDetails": "",
+                "durationBegin": "2024-06",
+                "durationEnds": "2024-06",
                 "projectImages": [
                     {
                         "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
