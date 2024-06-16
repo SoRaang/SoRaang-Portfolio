@@ -9,6 +9,7 @@ Use a better box model (opinionated).
 */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap");
 *,
 ::before,
 ::after {
@@ -263,7 +264,7 @@ summary {
 }
 :root {
   font-family: "SUIT", sans-serif;
-  font-size: 20px;
+  font-size: clamp(12px, 5vmin, 20px);
   line-height: 1;
   scroll-behavior: smooth;
   --opaq: 1;
@@ -282,6 +283,7 @@ summary {
   --ff-gothic-en: "Oswald", sans-serif;
   --ff-serif-kr: "";
   --ff-serif-en: "";
+  --ff-cursive: "Playwrite NL", cursive;
 }
 
 *,
@@ -613,26 +615,49 @@ a:hover, a:focus, a:active {
 }
 
 .inner-hero {
-  height: 100vh;
+  position: relative;
+  height: 80vh;
+  transform: perspective(50rem);
+  transform-style: preserve-3d;
 }
 
 .hero-text {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  gap: 0.8rem;
-  margin-inline-start: auto;
-  width: 50%;
-  height: 100%;
+  position: absolute;
+  inset: 0;
+  inset-inline-start: 50%;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 0.2rem;
+  background-color: white;
+  box-shadow: 0.5rem 0.75rem 1rem rgb(var(--clr-background)/1);
   font-family: var(--ff-sans-en);
-  text-shadow: 0 0.2rem 1.2rem rgb(var(--clr-background));
+  transform: rotate3d(0, -2, 1, 15deg);
+  overflow: hidden;
 }
-.hero-text p {
-  font-size: 1.4rem;
+
+.hero-text-top {
+  padding: 1rem;
+  background-color: rgb(var(--clr-alert));
+  font-size: var(--fnt-lg);
+  text-align: center;
 }
-.hero-text h1 {
-  font-size: 3.6rem;
+
+.hero-name {
+  padding: 0.5rem;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: var(--ff-cursive);
+  font-size: var(--fnt-title-lg);
   font-weight: 900;
+}
+
+.hero-text-bottom {
+  padding: 0.5rem;
+  background-color: rgb(var(--clr-alert));
 }
 
 /* _mainPage.scss */

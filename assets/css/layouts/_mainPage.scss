@@ -28,28 +28,47 @@
 }
 
 .inner-hero {
-    height: 100vh;
+    position: relative;
+    height: 80vh;
+    transform: perspective(50rem);
+    transform-style: preserve-3d;
 }
 
 .hero-text {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
-    gap: .8rem;
-    margin-inline-start: auto;
-    width: 50%;
-    height: 100%;
+    position: absolute;
+    inset: 0;
+    inset-inline-start: 50%;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: .2rem;
+    background-color: white;
+    box-shadow: .5rem .75rem 1rem rgb(var(--clr-background) / 1);
     font-family: var(--ff-sans-en);
-    text-shadow: 0 .2rem 1.2rem rgb(var(--clr-background));
+    transform: rotate3d(0, -2, 1, 15deg);
+    overflow: hidden;
+}
 
-    p {
-        font-size: 1.4rem;
-    }
+.hero-text-top {
+    padding: 1rem;
+    background-color: rgb(var(--clr-alert));
+    font-size: var(--fnt-lg);
+    text-align: center;
+}
 
-    h1 {
-        font-size: 3.6rem;
-        font-weight: 900;
-    }
+.hero-name {
+    padding: .5rem;
+    color: rgb(0 0 0 / .75);
+    font-family: var(--ff-cursive);
+    font-size: var(--fnt-title-lg);
+    font-weight: 900;
+}
+
+.hero-text-bottom {
+    padding: .5rem;
+    background-color: rgb(var(--clr-alert));
 }
 
 /* _mainPage.scss */

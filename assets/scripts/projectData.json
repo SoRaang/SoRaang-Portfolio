@@ -29,31 +29,15 @@
                 ]
             },
             {
-                "projectName": "다삼브채널",
+                "projectName": "와인투게더",
                 "projectDetails": "",
-                "durationBegin": "2021-08",
+                "durationBegin": "2021-09",
                 "durationEnds": "2022-03",
                 "projectImages": [
                     {
                         "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
                         "imageDescription": "이미지 설명"
                     },
-                    {
-                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
-                        "imageDescription": "이미지 설명"
-                    },
-                    {
-                        "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
-                        "imageDescription": "이미지 설명"
-                    }
-                ]
-            },
-            {
-                "projectName": "다사브채널",
-                "projectDetails": "",
-                "durationBegin": "2021-08",
-                "durationEnds": "2022-03",
-                "projectImages": [
                     {
                         "imageURL": "/assets/images/projects/2021/divechannel/dvch01.jpg",
                         "imageDescription": "이미지 설명"
@@ -68,11 +52,91 @@
     },
     {
         "yearTotal": 2022,
-        "yearEvent": "팀 핵심 인원으로 주목",
+        "yearEvent": "다수의 단독 프로젝트 진행",
         "yearSummary": "이러쿵 저러쿵",
         "yearAchieves": [
             {
                 "projectName": "윗팜",
+                "projectDetails": "",
+                "durationBegin": "2022-01",
+                "durationEnds": "2022-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "대지에스텍 모바일 Web",
+                "projectDetails": "",
+                "durationBegin": "2022-01",
+                "durationEnds": "2022-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "음식점 주문관리 솔루션 메뉴앱 Web",
+                "projectDetails": "",
+                "durationBegin": "2022-01",
+                "durationEnds": "2022-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "울산광역교육연구정보원 스쿨넷 교육망 전산관리 Web",
+                "projectDetails": "",
+                "durationBegin": "2022-01",
+                "durationEnds": "2022-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2022/withfarm/wthf01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "한국도로공사 경남본부 현장관리시스템 Web",
                 "projectDetails": "",
                 "durationBegin": "2022-01",
                 "durationEnds": "2022-08",
@@ -99,7 +163,31 @@
         "yearSummary": "이러쿵 저러쿵",
         "yearAchieves": [
             {
-                "projectName": "한국도로공사",
+                "projectName": "다이브채널 시즌 2",
+                "projectDetails": "",
+                "durationBegin": "2023-01",
+                "durationEnds": "2023-08",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2023/handoro/hdro01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "부산산업과학혁신원 BTIS 내부 시스템 리뉴얼 관련 레이아웃 설계 및 디자인",
                 "projectDetails": "",
                 "durationBegin": "2023-01",
                 "durationEnds": "2023-08",
@@ -126,11 +214,11 @@
     },
     {
         "yearTotal": 2024,
-        "yearEvent": "퇴사 및 자기계발",
-        "yearSummary": "이러쿵 저러쿵",
+        "yearEvent": "퇴사 이후 건강 재정비 및 자기계발을 위한 여행",
+        "yearSummary": "현재 진행 중",
         "yearAchieves": [
             {
-                "projectName": "필리핀",
+                "projectName": "필리핀 여행",
                 "projectDetails": "",
                 "durationBegin": "2024-03",
                 "durationEnds": "2024-03",
@@ -150,11 +238,59 @@
                 ]
             },
             {
-                "projectName": "웹 디자인 기능사 자격증 취득",
+                "projectName": "베트남 여행",
                 "projectDetails": "",
-                "durationBegin": "2024-06",
-                "durationEnds": "2024-06",
+                "durationBegin": "2024-03",
+                "durationEnds": "2024-03",
                 "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "싱가포르 여행",
+                "projectDetails": "",
+                "durationBegin": "2024-03",
+                "durationEnds": "2024-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    }
+                ]
+            },
+            {
+                "projectName": "일본 여행",
+                "projectDetails": "",
+                "durationBegin": "2024-03",
+                "durationEnds": "2024-03",
+                "projectImages": [
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
+                    {
+                        "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
+                        "imageDescription": "이미지 설명"
+                    },
                     {
                         "imageURL": "/assets/images/projects/2024/worldtour/php01.jpg",
                         "imageDescription": "이미지 설명"

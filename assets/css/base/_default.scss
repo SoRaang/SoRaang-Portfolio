@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
 
 @font-face {
     font-family: 'SUIT';
@@ -13,8 +14,7 @@
 
 :root {
     font-family: 'SUIT', sans-serif;
-    // font-size: clamp(12px, 5vmin, 20px); // Reactive REM (Not In Use)
-    font-size: 20px;
+    font-size: clamp(12px, 5vmin, 20px); // Reactive REM
     line-height: 1;
     scroll-behavior: smooth;
 
@@ -37,6 +37,7 @@
     --ff-gothic-en: 'Oswald', sans-serif;
     --ff-serif-kr: '';
     --ff-serif-en: '';
+    --ff-cursive: "Playwrite NL", cursive;
 }
 
 *,
